@@ -1,0 +1,22 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "client": "parcel client/index.html",
+    "server": "node server/main.js"
+  },
+  "browserslist": [
+    "last 3 chrome versions"
+  ],
+  "dependencies": {
+    "@skyway-sdk/room": "^1.7.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsrsasign": "^11.1.0"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.11.0"
+  }
+}
